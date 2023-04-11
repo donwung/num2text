@@ -11,6 +11,6 @@ This will output numbers from X to Y in steps of one.
 ### Features to be added:
 - separation characters
 - printing numbers numerically (just to have it)
-- printing primes
+- printing random numbers
 - printing multiples
 - decimals
