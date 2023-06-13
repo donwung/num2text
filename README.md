@@ -7,9 +7,9 @@ This will output numbers from X to Y in steps of one.
 
 
 
-### Features to be added:
-- separation characters
-- printing numbers numerically (just to have it)
-- printing random numbers
-- printing multiples
-- decimals
+### ~~Features to be added:~~ Archived
+- ~~separation characters~~
+- ~~printing numbers numerically (just to have it)~~
+- ~~printing random numbers~~
+- ~~printing multiples~~
+- ~~decimals~~
