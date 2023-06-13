@@ -234,6 +234,10 @@ const NumbersForm = (props) => {
         setAllNums(updatedNums);
     }
 
+    const February082023 = new Date("February 8, 2023 17:44:00:000")
+    const Today = new Date()
+    const DateDiffTotalDays = Math.floor((Today - February082023) / (1000 * 60 * 60 * 24))
+
     return (
         <div className="d-flex justify-content-center">
             <form className="w-25" onSubmit={(e) => { handleSubmitToText(e) }}>
@@ -246,9 +250,34 @@ const NumbersForm = (props) => {
                     <input className="form-control" type="number" onChange={(e) => { handleOnEndingValueChange(e) }}></input>
                 </div>
                 <button type="submit">To Text</button>
+                <div style={{ textAlign: "left" }}>
+                    <p>
+                        This project is old, started on February 8, 2023, right when I started burning out on programming.
+                        You can see the burnout through my commit history for a month and a little bit onwards.
+                        I had just completed a coding bootcamp and I was "looking for a job" but looking for a job felt near meaningless without something to prove myself with.
+                    </p>
+                    <p>
+                        So I started making projects and "coding for myself."
+                    </p>
+                    <p>
+                        It is June 13, 2023 as of writing this.
+                        <br></br>
+                        I like to believe that I've improved as a programmer over the course of three-ish months.
+                        I'm keeping this available as a way to remember that I have programmed something "not so good."
+                        I had just (80%) completed my Skyrim console helper last Friday.
+                        And it was significantly better than a lot of stuff that I had wrote prior.
+                        Maybe I've been programming religiously this past month, but I've seen this significant jump in my skill level compared to when I started.
+                        <br></br>
+                        If you're reading this, what I want you to take away from these few previous paragraphs, is that everyone that teaches code is right.
+                        Coding and programming likely won't just "come to you." It is a skill built up over time, line after line, bug after bug, commit after commit.
+                    </p>
+                    <p>
+                        It has been {DateDiffTotalDays} days since February 8.
+                    </p>
+                </div>
             </form>
             <div className="w-50">
-                <h2>Here lies all my RAM</h2>
+                <h2>Warning: higher values <i>will</i> crash the browser</h2>
                 {
                     allNums.map((num, i) => {
                         return (
