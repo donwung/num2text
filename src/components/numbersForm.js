@@ -268,8 +268,8 @@ const NumbersForm = (props) => {
                         And it was significantly better than a lot of stuff that I had wrote prior.
                         Maybe I've been programming religiously this past month, but I've seen this significant jump in my skill level compared to when I started.
                         <br></br>
-                        If you're reading this, what I want you to take away from these few previous paragraphs, is that everyone that teaches code is right.
-                        Coding and programming likely won't just "come to you." It is a skill built up over time, line after line, bug after bug, commit after commit.
+                        If you're new at programming and reading this, what I want you to take away from these few previous paragraphs, is that everyone that teaches code is right in this regard;
+                        coding and programming likely won't just "come to you." It is a skill built up over time, line after line, bug after bug, commit after commit.
                     </p>
                     <p>
                         It has been {DateDiffTotalDays} days since February 8.
