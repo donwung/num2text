@@ -1,6 +1,6 @@
 {
-  "name": "num2text",
   "homepage":"https://donwung.github.io/num2text",
+  "name": "num2text",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
